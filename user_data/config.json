@@ -1,0 +1,18 @@
+{
+  "exchange": {
+    "name": "binance",
+    "key": "PLzDTYO7s4liw6y9B7rN7ZYzwZwUHfGggGe7pgmKNrLuaSLV9B9fSxpGxUoag4li",
+    "secret": "dUqDoSIbUKlOccNMjGfChvBqR3iZpcg8bGj1rAuuu7qgY0t8mINfYDl0q94eUIsA",
+    "ccxt_config": {},
+    "ccxt_async_config": {},
+    "pair_whitelist": ["BTC/USDT"],
+    "pair_blacklist": ["BNB/USDT"]
+  },
+  "stake_currency": "USDT",
+  "stake_amount": "unlimited",
+  "timeframe": "5m",
+  "strategy": "YourStrategyName",
+  "dry_run": true,
+  "dry_run_wallet": 1000,
+  "verbose": false
+}
